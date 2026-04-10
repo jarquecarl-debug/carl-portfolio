@@ -3,25 +3,29 @@ import React from "react";
 export function ProjectsContent() {
   const projects = [
     {
-      title: "PhiNex",
-      subtitle: "Thesis Project",
-      desc: "PhiNex is a phishing detection security gateway built on the PYNQ-Z2 ARM-FPGA development board.",
-      tags: ["Python", "FPGA", "Security", "Networking"],
-      status: "Actively Improving",
-    },
-    {
-      title: "MRF Digitalization",
-      subtitle: "Internship Project",
-      desc: "A web application built during internship to digitalize MRF (Modification Request Form) processes, replacing manual record-keeping with a streamlined digital workflow.",
-      tags: ["React", "Tailwind", "JSX", "Vite"],
-      status: "Actively Improving",
-    },
+    title: "PhiNex",
+    subtitle: "Thesis Project",
+    desc: "PhiNex is a phishing detection security gateway built on the PYNQ-Z2 ARM-FPGA development board.",
+    tags: ["Python", "FPGA", "Security", "Networking"],
+    status: "Actively Improving",
+    github: "https://github.com/02rnfp-6815/PhiNex/tree/main",
+  },
+     {
+    title: "MRF Digitalization",
+    subtitle: "Internship Project",
+    desc: "A web application built during internship to digitalize MRF (Modification Request Form) processes, replacing manual record-keeping with a streamlined digital workflow.",
+    tags: ["React", "Tailwind", "JSX", "Vite"],
+    status: "Actively Improving",
+    github: "https://github.com/jarquecarl-debug/full-stack-MRF",
+  },
     {
       title: "Fundo",
       subtitle: "Personal Project",
       desc: "A personal expense tracking app that categorizes and summarizes recent purchases, giving users a clear picture of their spending habits.",
       tags: ["JSX", "JavaScript", "Vite", "Tailwind"],
       status: "Actively Improving",
+      liveUrl: "https://fundo-expense-tracking-app.netlify.app",
+      github: "https://github.com/jarquecarl-debug/fundo-expense-tracking-app",
     },
   ];
 
@@ -40,8 +44,8 @@ export function ProjectsContent() {
                 <div className="project-subtitle">{p.subtitle}</div>
               </div>
               <div className="project-buttons">
-                <button className="btn-outline">View Project</button>
-                <button className="btn-outline">GitHub</button>
+                <button className="btn-outline" onClick={() => p.liveUrl && window.open(p.liveUrl, "_blank")}>View Project</button>
+                <button className="btn-outline" onClick={() => p.github && window.open(p.github, "_blank")}>GitHub</button>
               </div>
             </div>
             <div className="project-desc">{p.desc}</div>
