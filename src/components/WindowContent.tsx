@@ -128,7 +128,7 @@ export function AboutContent() {
         <div className="about-title">Frontend Engineer · Computer Engineering Graduate</div>
       </div>
       <div className="about-oneliner">
-        "I build clean, fast, and thoughtful web experiences."
+        "CE by degree. Frontend by passion. Builder by nature."
       </div>
       <div className="about-bio">
         A Computer Engineering graduate with a passion for building modern digital solutions.
