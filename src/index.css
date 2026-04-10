@@ -754,7 +754,7 @@
   height: 32px;
   border-radius: 4px;
   border: 1px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.10);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -851,7 +851,7 @@
 }
 
 .start-menu-app:hover {
-  background: rgba(255,255,255,0.07);
+  background: rgba(255,255,255,0.15);
   border-color: rgba(255,255,255,0.1);
 }
 
@@ -999,7 +999,7 @@
 
 .context-menu-sep {
   height: 1px;
-  background: rgba(255,255,255,0.07);
+  background: rgba(255,255,255,0.15);
   margin: 3px 6px;
 }
 
@@ -1067,7 +1067,7 @@
   padding: 10px 12px;
   border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.10);
   cursor: pointer;
   transition: all 0.15s;
 }
@@ -1167,7 +1167,7 @@
 }
 
 .project-card {
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.10);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 10px;
   padding: 18px 20px;
@@ -1178,7 +1178,7 @@
 }
 
 .project-card:hover {
-  background: rgba(255,255,255,0.07);
+  background: rgba(255,255,255,0.15);
   border-color: rgba(0,120,215,0.45);
   transform: translateY(-2px);
   box-shadow: 0 8px 28px rgba(0,0,0,0.35);
@@ -1570,7 +1570,7 @@
   gap: 14px;
   padding: 14px 16px;
   border-radius: 8px;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.10);
   border: 1px solid rgba(255,255,255,0.07);
   cursor: pointer;
   text-decoration: none;
