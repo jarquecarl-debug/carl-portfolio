@@ -142,7 +142,7 @@ export function AboutContent() {
       </div>
       <div className="about-buttons">
         <button className="btn-primary">⬇ Download Resume</button>
-        <button className="btn-secondary">🐙 View GitHub</button>
+        <button className="btn-secondary" onClick={() => window.open("https://github.com/jarquecarl-debug", "_blank")}>🐙 View GitHub</button>
       </div>
     </div>
   );
