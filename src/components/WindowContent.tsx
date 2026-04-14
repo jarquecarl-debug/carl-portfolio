@@ -16,7 +16,7 @@ export function ProjectsContent() {
     desc: "A web application built during internship to digitalize MRF (Modification Request Form) processes, replacing manual record-keeping with a streamlined digital workflow.",
     tags: ["React", "Tailwind", "JSX", "Vite"],
     status: "Actively Improving",
-    github: "https://github.com/jarquecarl-debug/full-stack-MRF",
+    github: "https://github.com/jarquecarl-debug/Digital-MRF",
   },
     {
       title: "Fundo",
