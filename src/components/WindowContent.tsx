@@ -146,7 +146,7 @@
           download="Carl_Christian_Jarque_CV.pdf"
           className="btn-primary"
         >
-          ⬇ Download Resume
+              ⬇ Download Resume
         </a>
         <button className="btn-secondary" onClick={() => window.open("https://github.com/jarquecarl-debug", "_blank")}>🐙 View GitHub</button>
       </div>
