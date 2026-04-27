@@ -142,7 +142,7 @@
       </div>
       <div className="about-buttons">
         <a
-          href="/CARL_CHRISTIAN_JARQUE.pdf"
+          href="/Carl_Christian_Jarque_CV.pdf"
           download="Carl_Christian_Jarque_CV.pdf"
           className="btn-primary"
         >
