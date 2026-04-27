@@ -145,10 +145,10 @@
               href="/Carl_Christian_Jarque_CV.pdf"
               download="Carl_Christian_Jarque_CV.pdf"
               className="btn-primary"
-              style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
-            >
-              <span>⬇</span><span>Download Resume</span>
-            </a>
+         >     
+             ⬇ Download Resume
+          </a>
+            
         <button className="btn-secondary" onClick={() => window.open("https://github.com/jarquecarl-debug", "_blank")}>🐙 View GitHub</button>
       </div>
     </div>
