@@ -45,7 +45,7 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
 
         <div className="login-user">
           <div className="login-avatar">
-            <img src="/IMG_7009.jpg" alt="Carl Christian Jarque" className="login-avatar-img" />
+            <img src="/formal_img.png" alt="Carl Christian Jarque" className="login-avatar-img" />
           </div>
           <div className="login-name">Carl Christian Jarque</div>
           <div className="login-hint">
