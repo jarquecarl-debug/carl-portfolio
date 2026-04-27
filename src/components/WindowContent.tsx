@@ -122,7 +122,7 @@
     <div className="about-container">
       <div className="about-avatar-wrap">
         <img
-          src="/IMG_7009.jpg"
+          src="/formal_img.png"
           alt="Carl Christian Jarque"
           className="about-avatar-img"
         />
