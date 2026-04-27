@@ -182,3 +182,11 @@
     border-right-color: var(--border);
   }
 }
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+}
