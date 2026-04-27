@@ -184,9 +184,10 @@
 }
 
 .btn-primary {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
   text-align: center;
+  width: fit-content;
 }
