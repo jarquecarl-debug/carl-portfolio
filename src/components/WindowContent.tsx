@@ -27,6 +27,16 @@
         liveUrl: "https://fundo-expense-tracking-app.netlify.app",
         github: "https://github.com/jarquecarl-debug/fundo-expense-tracking-app",
       },
+
+        {
+      title: "Maze Explorer 3D",
+      subtitle: "Personal Project",
+      desc: "A first-person 3D maze game built with React Three Fiber. Navigate procedurally-structured mazes, collect items, avoid a glowing ghost enemy with BFS pathfinding, and find the exit.",
+      tags: ["React", "Three.js", "TypeScript", "Vite", "R3F"],
+      status: "Actively Improving",
+      liveUrl: "https://maze-game-3d.netlify.app", // replace later
+      github: "https://github.com/jarquecarl-debug/maze-game",
+    },  
     ];
 
     return (
