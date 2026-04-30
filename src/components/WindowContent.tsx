@@ -1,4 +1,5 @@
   import React from "react";
+  import Certifications from "./Certifications";
 
   export function ProjectsContent() {
     const projects = [
@@ -199,96 +200,8 @@
   }
 
   export function CertificationsContent() {
-    const certs = [
-      {
-        icon: "🤖",
-        accent: "rgba(139,92,246,0.15)",
-        accentBorder: "rgba(139,92,246,0.28)",
-        accentText: "rgba(196,181,253,0.9)",
-        name: "AI Learning Modules Completion (12 hours) — AIClassASEAN.org",
-        issuer: "ASEAN Foundation",
-        date: "November 2025",
-      },
-      {
-        icon: "🌐",
-        accent: "rgba(0,120,215,0.15)",
-        accentBorder: "rgba(0,120,215,0.28)",
-        accentText: "rgba(96,165,250,0.9)",
-        name: "AI Ready ASEAN Seminar — Hello, AI World: From Basics to Big Impact",
-        issuer: "AI Ready ASEAN / ASEAN Foundation",
-        date: "October 2025",
-      },
-      {
-        icon: "💡",
-        accent: "rgba(234,179,8,0.12)",
-        accentBorder: "rgba(234,179,8,0.22)",
-        accentText: "rgba(253,224,71,0.85)",
-        name: "4-Hour Hour of Code Webinar",
-        issuer: "DICT Region 2 Nueva Vizcaya",
-        date: "October 2025",
-      },
-      {
-        icon: "🖥️",
-        accent: "rgba(20,184,166,0.14)",
-        accentBorder: "rgba(20,184,166,0.26)",
-        accentText: "rgba(94,234,212,0.9)",
-        name: "Hour of Code — AI for Oceans",
-        issuer: "Code.org",
-        date: "October 2025",
-      },
-      {
-        icon: "🔗",
-        accent: "rgba(234,179,8,0.12)",
-        accentBorder: "rgba(234,179,8,0.22)",
-        accentText: "rgba(253,224,71,0.85)",
-        name: "Hour of Code — AI Ready ASEAN Programme",
-        issuer: "Break the Fake Movement / ASEAN Foundation",
-        date: "September 2025",
-      },
-      {
-        icon: "⚙️",
-        accent: "rgba(239,68,68,0.15)",
-        accentBorder: "rgba(239,68,68,0.25)",
-        accentText: "rgba(252,165,165,0.9)",
-        name: "International Experts Sharing Meeting — Automation and Intelligent Control in Equipment Manufacturing",
-        issuer: "Go Study Global Education / SEAMEO TED",
-        date: "March 2026",
-      },
-      {
-        icon: "☀️",
-        accent: "rgba(251,146,60,0.14)",
-        accentBorder: "rgba(251,146,60,0.26)",
-        accentText: "rgba(253,186,116,0.9)",
-        name: "International Perspectives Series Webinar — Stable and Efficient Modular Solar Chimney Dryer",
-        issuer: "Go Study Global Education",
-        date: "April 2026",
-      },
-    ];
-
-    return (
-      <div className="cert-list">
-        {certs.map((c, i) => (
-          <div
-            className="cert-card"
-            key={i}
-            style={{
-              background: c.accent,
-              borderColor: c.accentBorder,
-            }}
-          >
-            <div className="cert-icon-wrap" style={{ background: c.accentBorder }}>
-              <span className="cert-icon">{c.icon}</span>
-            </div>
-            <div className="cert-body">
-              <div className="cert-name">{c.name}</div>
-              <div className="cert-issuer">{c.issuer}</div>
-            </div>
-            <div className="cert-date" style={{ color: c.accentText }}>{c.date}</div>
-          </div>
-        ))}
-      </div>
-    );
-  }
+  return <Certifications />;
+}
 
   export function ContactContent() {
     const items = [
