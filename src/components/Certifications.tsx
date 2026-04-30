@@ -15,7 +15,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "AI Learning Modules Completion (12 hours)",
     issuer: "ASEAN Foundation / AIClassASEAN.org",
     date: "November 2025",
-    image: "/certs/certificate.png",
+    image: "/certs/certificate-12hr.png",
     icon: "🤖",
   },
   {
@@ -23,7 +23,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "AI Ready ASEAN Seminar — Hello, AI World: From Basics to Big Impact",
     issuer: "AI Ready ASEAN / ASEAN Foundation",
     date: "October 2025",
-    image: "/certs/AI_Ready_ASEAN_Seminar.PNG",
+    image: "/certs/AI Ready ASEAN Seminar.PNG",
     icon: "🌐",
   },
   {
@@ -31,7 +31,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "4-Hour Hour of Code Webinar",
     issuer: "DICT Region 2 Nueva Vizcaya / ILCDB",
     date: "October 2025",
-    image: "/certs/4-hour_Hour_of_Code.PNG",
+    image: "/certs/4-hour Hour of Code.PNG",
     icon: "💡",
   },
   {
@@ -39,7 +39,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "Hour of Code — AI for Oceans",
     issuer: "Code.org",
     date: "October 2025",
-    image: "/certs/Hour_of_Code.PNG",
+    image: "/certs/Hour of Code.PNG",
     icon: "🌊",
   },
   {
@@ -47,7 +47,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "Hour of Code — AI Ready ASEAN Programme",
     issuer: "Break The Fake Movement / ASEAN Foundation",
     date: "September 2025",
-    image: "/certs/BTFM_x_AI_Ready_ASEAN_Programme_Certificate.png",
+    image: "/certs/BTFM x AI Ready ASEAN Programme_Certificate.png",
     icon: "🎓",
   },
   {
@@ -55,7 +55,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "Hello, AI World: From Basics to Big Impact",
     issuer: "San Sebastian College – Computer Group of AcTive Engineering Students",
     date: "October 2025",
-    image: "/certs/Hello__AI_World.PNG",
+    image: "/certs/Hello, AI World.PNG",
     icon: "🧠",
   },
   {
@@ -63,7 +63,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "International Experts Sharing Meeting — Automation and Intelligent Control",
     issuer: "Go Study / PASITA Foundation / SEAMEO TED",
     date: "March 2026",
-    image: "/certs/International_Experts_Sharing_Meeting.PNG",
+    image: "/certs/International Experts Sharing Meeting.PNG",
     icon: "🏭",
   },
   {
@@ -71,7 +71,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "International Perspectives Series Webinar — Solar Chimney Dryer",
     issuer: "Go Study Global Education",
     date: "April 2026",
-    image: "/certs/International_Perspective_Series_Webinar.PNG",
+    image: "/certs/International Perspective Series Webinar.PNG",
     icon: "☀️",
   },
   {
@@ -79,7 +79,7 @@ const CERTIFICATIONS: Certification[] = [
     title: "BSCpE IV Seminar — Computer Architecture",
     issuer: "Southern Philippines Institute of Science and Technology",
     date: "May 2023",
-    image: "/certs/Computer_Architecture.PNG",
+    image: "/certs/Computer Architecture.PNG",
     icon: "🖥️",
   },
 ];
