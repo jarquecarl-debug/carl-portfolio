@@ -257,7 +257,7 @@ export function AcademicWorksContent() {
       <div className="explorer-toolbar">
         <span style={{ fontSize: 13, color: "rgba(255,255,255,0.3)" }}>→</span>
         <span className="explorer-breadcrumb">
-          This PC &gt; Portfolio &gt; Academic Works &gt; CPE302
+          This PC &gt; Portfolio &gt; Academic Works
         </span>
         <button
           onClick={() => window.open("https://github.com/jarquecarl-debug/CPE302-Activities", "_blank")}
@@ -315,7 +315,7 @@ export function AcademicWorksContent() {
               fontFamily: "'Segoe UI', system-ui, sans-serif",
               marginBottom: 2,
             }}>
-              CPE302 — Embedded Systems 2
+              Personal Portfolio (v1)
             </div>
             <div style={{
               fontSize: 11, color: "rgba(255,255,255,0.35)",
