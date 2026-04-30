@@ -5,6 +5,7 @@ import MobileSheet from "@/components/MobileSheet";
 import LoginScreen from "@/components/LoginScreen";
 import StartMenu from "@/components/StartMenu";
 import ContextMenu from "@/components/ContextMenu";
+import { AcademicWorksContent } from "@/components/AcademicWorks";
 import NotificationCenter from "@/components/NotificationCenter";
 import {
   ProjectsContent,
@@ -15,7 +16,7 @@ import {
   ContactContent,
 } from "@/components/WindowContent";
 
-type WindowId = "projects" | "skills" | "about" | "experience" | "certifications" | "contact";
+type WindowId = "projects" | "skills" | "about" | "experience" | "certifications" | "contact" | "academic";
 
 interface WindowState {
   id: WindowId;
@@ -38,6 +39,7 @@ const DESKTOP_ICONS: { id: WindowId; icon: string; label: string }[] = [
   { id: "experience", icon: "💼", label: "Experience" },
   { id: "certifications", icon: "🎓", label: "Certifications" },
   { id: "contact", icon: "📩", label: "Contact" },
+  { id: "academic", icon: "🎓", label: "Academic Works" },
 ];
 
 const WINDOW_CONFIG: Record<WindowId, { title: string; icon: string; width: number; height: number }> = {
@@ -47,6 +49,7 @@ const WINDOW_CONFIG: Record<WindowId, { title: string; icon: string; width: numb
   experience: { title: "Experience", icon: "💼", width: 480, height: 420 },
   certifications: { title: "Certifications", icon: "🎓", width: 520, height: 400 },
   contact: { title: "Contact", icon: "📩", width: 420, height: 440 },
+  academic: { title: "Academic Works", icon: "🎓", width: 540, height: 480 },
 };
 
 function getWindowContent(id: WindowId) {
@@ -57,6 +60,7 @@ function getWindowContent(id: WindowId) {
     case "experience": return <ExperienceContent />;
     case "certifications": return <CertificationsContent />;
     case "contact": return <ContactContent />;
+    case "academic": return <AcademicWorksContent />;
   }
 }
 

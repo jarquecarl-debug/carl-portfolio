@@ -1,5 +1,10 @@
   import React from "react";
   import Certifications from "./Certifications";
+  // top — add with other imports
+import { AcademicWorksContent } from "./AcademicWorks";
+
+// bottom — re-export it so App.tsx can use it
+export { AcademicWorksContent };
 
   export function ProjectsContent() {
     const projects = [
